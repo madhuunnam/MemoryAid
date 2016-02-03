@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.MonitorStatusController">
+   <children>
+      <DatePicker fx:id="reportStartDateId" layoutX="90.0" layoutY="196.0" prefHeight="27.0" prefWidth="126.0" />
+      <Label layoutX="94.0" layoutY="62.0" text="MonitorStatus" textFill="#a40707" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="137.0" fitWidth="245.0" layoutX="377.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@monitorstatus.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBackButtonAction" text="Back To Caregiver Home" />
+      <Label layoutX="20.0" layoutY="168.0" text="Select the start and end dates to view the reminder reports:" textFill="#0836bf">
+         <font>
+            <Font name="Helvetica Neue Medium Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="201.0" text="Start Date: " />
+      <Label layoutX="275.0" layoutY="201.0" text="End Date: " />
+      <DatePicker fx:id="reportEndDateId" layoutX="339.0" layoutY="196.0" prefHeight="27.0" prefWidth="132.0" />
+      <Button layoutX="302.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleMissedReminderBtnAction" text="Show Missed Reminders">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Button>
+      <TableView fx:id="reportTable" layoutX="20.0" layoutY="304.0" prefHeight="137.0" prefWidth="549.0">
+        
+      </TableView>
+      <Label layoutX="20.0" layoutY="280.0" text="Reminder Reports:" textFill="#b20606">
+         <font>
+            <Font name="Helvetica Neue Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="142.0" layoutY="240.0" mnemonicParsing="false" onAction="#handleShowReminderBtnAction" text="Show All Reminders">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

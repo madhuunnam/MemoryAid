@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="416.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.FamilySpecHomeController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="2.0" layoutY="61.0" prefHeight="45.0" prefWidth="536.0" text="Family Member Spec" textFill="#272368">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="93.0" fitWidth="120.0" layoutX="15.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Home.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="36.0" layoutY="285.0" onAction="#handleHomeLinkAction" text="Home&gt;&gt;" />
+      <Label layoutX="36.0" layoutY="152.0" text="Home">
+         <font>
+            <Font name="Arial Unicode MS" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="104.0" fitWidth="115.0" layoutX="126.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon-calendar1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="117.0" layoutX="249.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gallery.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="101.0" layoutX="378.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@messages.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="125.0" layoutY="285.0" onAction="#HandleCalendarLinkAction" text="Go to Calendar&gt;&gt;" />
+      <Hyperlink fx:id="GalleryHomeLinkId" layoutX="263.0" layoutY="285.0" onAction="#HandleHomeGalleryLink" text="Go to Gallery&gt;&gt;" />
+      <Hyperlink fx:id="MessagesHomeLinkId" layoutX="387.0" layoutY="285.0" onAction="#HandleHomeMessagesLink" text="Go to Messages&gt;&gt;" />
+      <Label layoutX="161.0" layoutY="152.0" text="Calendar" />
+      <Label layoutX="276.0" layoutY="152.0" text="Gallery" />
+      <Label layoutX="387.0" layoutY="152.0" text="Messages" />
+    </children>
+</AnchorPane>

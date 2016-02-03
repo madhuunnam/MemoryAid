@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.HomepageController">
+   <children>
+      <ImageView fitHeight="159.0" fitWidth="162.0" layoutX="55.0" layoutY="204.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="162.0" layoutX="255.0" layoutY="204.0" pickOnBounds="true">
+         <image>
+            <Image url="@cg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="180.0" layoutX="453.0" layoutY="204.0" pickOnBounds="true">
+         <image>
+            <Image url="@familymember.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="80.0" layoutY="389.0" onAction="#handleElderlyPersonLink" prefHeight="27.0" prefWidth="113.0" text="Stephanie &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font></Hyperlink>
+      <Hyperlink layoutX="287.0" layoutY="389.0" onAction="#handleCaregiverLink" text="Caregiver &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font></Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="389.0" onAction="#handleFamilyMemberLink" text="Family Member &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font></Hyperlink>
+      <Label layoutX="114.0" layoutY="68.0" prefHeight="64.0" prefWidth="444.0" text="Welcome to the Memory Aid" textFill="#6b0d0d">
+         <font>
+            <Font name="System Italic" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

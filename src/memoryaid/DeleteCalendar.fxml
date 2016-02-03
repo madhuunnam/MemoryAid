@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="memoryaid.DeleteCalendarController">
+    <stylesheets>
+        <URL value="@deletecalendar.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="26.0" layoutY="28.0" text="Delete">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="78.0" prefHeight="21.0" prefWidth="284.0" text="Are you sure you want to delete this?" />
+      <Label layoutX="84.0" layoutY="129.0" text="Event" />
+      <Label layoutX="84.0" layoutY="169.0" text="Event Added" />
+      <Label layoutX="84.0" layoutY="214.0" text="Event Date" />
+      <TextField layoutX="186.0" layoutY="124.0" />
+      <TextField layoutX="186.0" layoutY="164.0" />
+      <TextField layoutX="186.0" layoutY="209.0" />
+      <Button layoutX="154.0" layoutY="273.0" mnemonicParsing="false" text="Delete" />
+      <Hyperlink layoutX="39.0" layoutY="274.0" text="Back to List" />
+   </children>
+</AnchorPane>

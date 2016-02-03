@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="439.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.ElderlyPersonController">
+   <children>
+      <ImageView fitHeight="305.0" fitWidth="215.0" layoutX="22.0" layoutY="60.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="141.0" layoutX="246.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/family.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="140.0" layoutX="389.0" layoutY="138.0" onDragDetected="#handleMailboxLinkAction" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/mail_box.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="140.0" layoutX="536.0" layoutY="138.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/help.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="527.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleBackButtonAction" text="Back to Homepage" />
+      <Hyperlink layoutX="264.0" layoutY="277.0" onAction="#handleLinkViewGalleryAction" prefHeight="27.0" prefWidth="109.0" text="View Gallery">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="402.0" layoutY="277.0" onAction="#handleMailboxLinkAction" text="Check Mailbox">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="550.0" layoutY="277.0" onAction="#handleEPEmergencyButtonLink" text="Emergency">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onDragDetected="#handleBackButtonAction" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.ElderlyPersonGalleryController">
+   <children>
+      <ImageView fitHeight="355.0" fitWidth="211.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/index.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="147.0" layoutX="240.0" layoutY="110.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/photo_album.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="160.0" layoutX="412.0" layoutY="122.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/calender.PNG" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="267.0" layoutY="248.0" onAction="#handleViewAllPicturesLink" text="View Pictures" />
+      <Hyperlink layoutX="444.0" layoutY="248.0" onAction="#handleViewCalenderLink" prefHeight="25.0" prefWidth="111.0" text="View Calender" />
+      <Button layoutX="513.0" layoutY="348.0" mnemonicParsing="false" onAction="#handleBackButtonAction" text="Back" />
+   </children>
+</AnchorPane>

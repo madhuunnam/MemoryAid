@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.EmergencyMessageController">
+   <children>
+      <Label layoutX="42.0" layoutY="79.0" text="Emergency Message" textFill="#bc0808" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="27.0" prefWidth="172.0" text="Back to Caregiver Home" />
+      <Label layoutX="42.0" layoutY="202.0" prefHeight="92.0" prefWidth="417.0" text="The elderly person is in an emergency. &#10;Your urgent help is required. &#10;Please respond immediately and call 911!&#10;" textFill="#b21a1a">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="148.0" fitWidth="183.0" layoutX="433.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@emergency.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="420.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleOkButtonAction" prefHeight="27.0" prefWidth="114.0" text="Ok" />
+   </children>
+</AnchorPane>

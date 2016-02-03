@@ -1,0 +1,99 @@
+@startuml
+annotation java.lang.Override
+annotation javafx.fxml.FXML
+class java.io.File
+class java.io.IOException
+class java.net.URL
+class java.util.ResourceBundle
+class javafx.application.Application
+class javafx.beans.property.SimpleStringProperty
+class javafx.collections.FXCollections
+class javafx.collections.ObservableList
+class javafx.event.ActionEvent
+class javafx.fxml.FXMLLoader
+class javafx.scene.Node
+class javafx.scene.Parent
+class javafx.scene.Scene
+class javafx.scene.control.Button
+class javafx.scene.control.ComboBox
+class javafx.scene.control.Label
+class javafx.scene.control.TableColumn
+class javafx.scene.control.TableRow
+class javafx.scene.control.TableView
+class javafx.scene.control.TextField
+class javafx.stage.FileChooser
+class javafx.stage.Stage
+class memoryaid.CaregiverHomeController
+class memoryaid.EmergencyMessageController
+class memoryaid.MemoryAid
+class memoryaid.MonitorStatusController
+class memoryaid.Reminder
+class memoryaid.SetReminderController
+interface javafx.fxml.Initializable
+memoryaid.CaregiverHomeController ..> java.lang.Override
+memoryaid.CaregiverHomeController ..> javafx.fxml.FXML
+memoryaid.CaregiverHomeController ..> java.io.IOException
+memoryaid.CaregiverHomeController ..> java.net.URL
+memoryaid.CaregiverHomeController ..> java.util.ResourceBundle
+memoryaid.CaregiverHomeController ..> javafx.event.ActionEvent
+memoryaid.CaregiverHomeController ..> javafx.fxml.FXMLLoader
+memoryaid.CaregiverHomeController ..> javafx.scene.Node
+memoryaid.CaregiverHomeController ..> javafx.scene.Parent
+memoryaid.CaregiverHomeController ..> javafx.scene.Scene
+memoryaid.CaregiverHomeController ..> javafx.scene.control.Label
+memoryaid.CaregiverHomeController ..> javafx.stage.Stage
+memoryaid.CaregiverHomeController --|> javafx.fxml.Initializable
+memoryaid.EmergencyMessageController ..> java.lang.Override
+memoryaid.EmergencyMessageController ..> javafx.fxml.FXML
+memoryaid.EmergencyMessageController ..> java.io.IOException
+memoryaid.EmergencyMessageController ..> java.net.URL
+memoryaid.EmergencyMessageController ..> java.util.ResourceBundle
+memoryaid.EmergencyMessageController ..> javafx.event.ActionEvent
+memoryaid.EmergencyMessageController ..> javafx.fxml.FXMLLoader
+memoryaid.EmergencyMessageController ..> javafx.scene.Node
+memoryaid.EmergencyMessageController ..> javafx.scene.Parent
+memoryaid.EmergencyMessageController ..> javafx.scene.Scene
+memoryaid.EmergencyMessageController ..> javafx.stage.Stage
+memoryaid.EmergencyMessageController --|> javafx.fxml.Initializable
+memoryaid.MemoryAid ..> java.lang.Override
+memoryaid.MemoryAid --|> javafx.application.Application
+memoryaid.MemoryAid ..> javafx.fxml.FXMLLoader
+memoryaid.MemoryAid ..> javafx.scene.Parent
+memoryaid.MemoryAid ..> javafx.scene.Scene
+memoryaid.MemoryAid ..> javafx.stage.Stage
+memoryaid.MonitorStatusController ..> java.lang.Override
+memoryaid.MonitorStatusController ..> javafx.fxml.FXML
+memoryaid.MonitorStatusController ..> java.io.IOException
+memoryaid.MonitorStatusController ..> java.net.URL
+memoryaid.MonitorStatusController ..> java.util.ResourceBundle
+memoryaid.MonitorStatusController ..> javafx.event.ActionEvent
+memoryaid.MonitorStatusController ..> javafx.fxml.FXMLLoader
+memoryaid.MonitorStatusController ..> javafx.scene.Node
+memoryaid.MonitorStatusController ..> javafx.scene.Parent
+memoryaid.MonitorStatusController ..> javafx.scene.Scene
+memoryaid.MonitorStatusController ..> javafx.stage.Stage
+memoryaid.MonitorStatusController --|> javafx.fxml.Initializable
+memoryaid.Reminder ..> javafx.beans.property.SimpleStringProperty
+memoryaid.SetReminderController ..> java.lang.Override
+memoryaid.SetReminderController ..> javafx.fxml.FXML
+memoryaid.SetReminderController ..> java.io.File
+memoryaid.SetReminderController ..> java.io.IOException
+memoryaid.SetReminderController ..> java.net.URL
+memoryaid.SetReminderController ..> java.util.ResourceBundle
+memoryaid.SetReminderController ..> javafx.collections.FXCollections
+memoryaid.SetReminderController ..> javafx.collections.ObservableList
+memoryaid.SetReminderController ..> javafx.event.ActionEvent
+memoryaid.SetReminderController ..> javafx.fxml.FXMLLoader
+memoryaid.SetReminderController ..> javafx.scene.Node
+memoryaid.SetReminderController ..> javafx.scene.Parent
+memoryaid.SetReminderController ..> javafx.scene.Scene
+memoryaid.SetReminderController ..> javafx.scene.control.Button
+memoryaid.SetReminderController ..> javafx.scene.control.ComboBox
+memoryaid.SetReminderController ..> javafx.scene.control.TableColumn
+memoryaid.SetReminderController ..> javafx.scene.control.TableRow
+memoryaid.SetReminderController ..> javafx.scene.control.TableView
+memoryaid.SetReminderController ..> javafx.scene.control.TextField
+memoryaid.SetReminderController ..> javafx.stage.FileChooser
+memoryaid.SetReminderController ..> javafx.stage.Stage
+memoryaid.SetReminderController --|> javafx.fxml.Initializable
+@enduml

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="memoryaid.EditCalendarModelController">
+    <stylesheets>
+        <URL value="@editcalendarmodel.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="35.0" layoutY="27.0" text="Edit">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="91.0" text="Calendar Model" />
+      <Label layoutX="124.0" layoutY="173.0" text="Event Text" />
+      <Label layoutX="124.0" layoutY="221.0" text="EventDate" />
+      <TextField layoutX="263.0" layoutY="168.0" />
+      <TextField layoutX="263.0" layoutY="216.0" />
+      <Button layoutX="263.0" layoutY="287.0" mnemonicParsing="false" text="Save" />
+      <Hyperlink layoutX="52.0" layoutY="318.0" text="Back to List" />
+   </children>
+</AnchorPane>

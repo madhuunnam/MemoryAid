@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoryaid.ViewAllPicturesPageController">
+   <children>
+      <ImageView fitHeight="308.0" fitWidth="166.0" layoutX="20.0" layoutY="49.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Pictures/index.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="207.0" layoutY="20.0" prefHeight="406.0" prefWidth="479.0">
+         <children>
+            <ImageView fitHeight="126.0" fitWidth="197.0" layoutX="46.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../GalleryImages/Gallery%20(1).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="126.0" fitWidth="189.0" layoutX="264.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../GalleryImages/Gallery%20(2).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="197.0" layoutX="46.0" layoutY="147.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../GalleryImages/Gallery%20(4).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="197.0" layoutX="264.0" layoutY="147.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../GalleryImages/Gallery1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="394.0" layoutY="365.0" mnemonicParsing="false" onAction="#handleBackButtonAction" text="Back" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
